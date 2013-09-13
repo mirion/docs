@@ -122,7 +122,10 @@ html.ready header[role="banner"] {
 
 #logo {
   margin-top: 11px;
+  margin-left: 11px;
   width: 160px;
+  height: 27px;
+  background: url(../img/logo.png)
 }
 
 /* Navigation */
@@ -184,7 +187,7 @@ a:visited {
   padding: 5px 8px 5px 27px;
   border: 1px solid #aaa;
   color: #333;
-  background: #eee url(/img/search.png) no-repeat 7px 5px;
+  background: #eee url(../img/search.png) no-repeat 7px 5px;
   -webkit-border-radius: 13px;
   -moz-border-radius: 13px;
   border-radius: 13px;
@@ -202,8 +205,8 @@ a:visited {
 #list form a.search-reset {
   top:19px;
   right: 25px;
-  background:url("/img/clearinput.png") no-repeat;
-  _background:url("/img/clearinput.png.gif") no-repeat;
+  background:url("../img/clearinput.png") no-repeat;
+  _background:url("../img/clearinput.png.gif") no-repeat;
   position: absolute;
   border: 0;
   padding: 6px;
@@ -227,13 +230,13 @@ a:visited {
 }
 section#list header {
   padding: 13px 0 10px;;
-  background: #e4e4e4 url(/img/diagonal.png);
-  background: url(/img/ddiagonal.png), -moz-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
-  background: url(/img/ddiagonal.png), -ms-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
-  background: url(/img/ddiagonal.png), -o-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
-  background: url(/img/ddiagonal.png), -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), color-stop(62%, #e4e4e4));
-  background: url(/img/ddiagonal.png), -webkit-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
-  background: url(/img/ddiagonal.png), linear-gradient(top, #f4f4f4, #e4e4e4 62%);
+  background: #e4e4e4 url(../img/diagonal.png);
+  background: url(../img/ddiagonal.png), -moz-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
+  background: url(../img/ddiagonal.png), -ms-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
+  background: url(../img/ddiagonal.png), -o-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
+  background: url(../img/ddiagonal.png), -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), color-stop(62%, #e4e4e4));
+  background: url(../img/ddiagonal.png), -webkit-linear-gradient(top, #f4f4f4, #e4e4e4 62%);
+  background: url(../img/ddiagonal.png), linear-gradient(top, #f4f4f4, #e4e4e4 62%);
   width: 274px;
 }
 #docs #list div {
@@ -318,13 +321,13 @@ section#list header {
   height: 45px;
   border-top: 1px solid #b2b2b2;
 
-  background: #e7e7e7 url(/img/diagonal.png);
-  background: url(/img/ddiagonal.png), -moz-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
-  background: url(/img/ddiagonal.png), -ms-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
-  background: url(/img/ddiagonal.png), -o-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
-  background: url(/img/ddiagonal.png), -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), color-stop(62%, #e7e7e7));
-  background: url(/img/ddiagonal.png), -webkit-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
-  background: url(/img/ddiagonal.png), linear-gradient(top, #f4f4f4, #e7e7e7 62%);
+  background: #e7e7e7 url(../img/diagonal.png);
+  background: url(../img/ddiagonal.png), -moz-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
+  background: url(../img/ddiagonal.png), -ms-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
+  background: url(../img/ddiagonal.png), -o-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
+  background: url(../img/ddiagonal.png), -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), color-stop(62%, #e7e7e7));
+  background: url(../img/ddiagonal.png), -webkit-linear-gradient(top, #f4f4f4, #e7e7e7 62%);
+  background: url(../img/ddiagonal.png), linear-gradient(top, #f4f4f4, #e7e7e7 62%);
 }
 #docs footer .button {
   display: block;
@@ -338,7 +341,7 @@ section#list header {
   font-size: 24px;
   margin: 0 0 20px -20px;
   border: 1px 0 0 solid #D7E3D1;
-  background: transparent url(/img/apidocs.png) no-repeat 31px 31px;
+  background: transparent url(../img/apidocs.png) no-repeat 31px 31px;
   padding: 25px 57px 0px 65px;
 }
 .classes {
@@ -378,7 +381,7 @@ h2 {
   overflow: hidden;
 }
 .methods , #properties ul{
-  list-style-image: url(/img/docbullet.png);
+  list-style-image: url(../img/docbullet.png);
   margin-left: 12px;
   margin-bottom: 12px;
 }
@@ -432,7 +435,7 @@ dt.heading {
 dt, .returns dd {
   clear: left;
   float: left;
-  background: url(/img/docbullet.png) no-repeat left center ;
+  background: url(../img/docbullet.png) no-repeat left center ;
   padding-left: 10px;
 }
 dt .light {
