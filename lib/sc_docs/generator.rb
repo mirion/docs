@@ -47,14 +47,14 @@ module ScDocs
 
       def prep
         FileUtils.rm_rf output_dir
-        FileUtils.mkdir_p File.dirname(output_dir)
+        FileUtils.mkdir_p output_dir
       end
 
       def run_command
+        copy_files
+
         puts "#{command}\n\n" if verbose
         verbose ? system(command) : `#{command}`
-
-        copy_files
 
         puts "Finished Building\n\n"
       end
